@@ -1,0 +1,158 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(102, 88, 88, 0.3450980392);
+  opacity: 0;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.back-to-top svg {
+  width: 100%;
+  padding: 10px;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+.hero {
+  background-image: url(/img/audia4hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero .hero-box {
+  height: 70svh;
+  z-index: 1000;
+}
+.hero .hero-box .text {
+  text-align: center;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.ride {
+  text-align: center;
+}
+.ride .heading {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding-bottom: 2rem;
+}
+.ride .heading span {
+  font-size: 2rem;
+}
+.ride .box {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+.ride .box .bx {
+  color: red;
+}
+.ride .box p {
+  font-style: italic;
+}
+
+.services {
+  text-align: center;
+}
+.services .services-container {
+  padding-bottom: 2rem;
+}
+.services .services-container-box .box {
+  padding: 10px;
+  border-radius: 1rem;
+  box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+}
+.services .services-container-box .box img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.services .services-container-box .box p {
+  font-size: 2rem;
+}
+.services .services-container-box .box h3 {
+  font-size: 2rem;
+}
+.services .services-container-box .box h2 {
+  color: #ca3c3c;
+  font-size: 1.5rem;
+}
+.services .services-container-box .box .btn {
+  width: 100%;
+}
+
+.map {
+  height: 500px;
+  width: 100%;
+}
+.map iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.contact {
+  background-color: #1f242d;
+}
+.contact .form-control {
+  border-radius: 1rem;
+  border: 1px solid;
+}
+.contact .contact-img-box {
+  width: 100%;
+  height: auto;
+}
+.contact .contact-img-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+.contact h2 {
+  color: #fff;
+}
+.contact p {
+  color: #fff;
+}
+
+.image-box {
+  width: 100%;
+}
+.image-box img {
+  width: 100%;
+}
+
+.form-control {
+  border-radius: 1rem;
+  border: 1px solid;
+}
+
+footer {
+  text-align: center;
+}
+footer .svg {
+  width: 50px;
+  height: 50px;
+}
+footer .svg svg {
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */

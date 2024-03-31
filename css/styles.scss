@@ -1,0 +1,164 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #66585858;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .4s ease;
+    svg {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+
+section {
+    padding: 2rem 0;
+}
+
+.hero {
+    background-image: url(/img/audia4hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .hero-box {
+        height: 70svh;
+        z-index: 1000;
+        .text {
+            text-align: center;
+        }
+    }
+    
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.ride {
+    text-align: center;
+    .heading {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        padding-bottom: 2rem;
+        span {
+            font-size: 2rem;
+        }
+    }
+    .box {
+        column-gap: 2rem;
+        .bx {
+            color: red;
+        }
+        p {
+            font-style: italic;
+        }
+    }
+    
+}
+
+.services {
+
+    text-align: center;
+    .services-container {
+        padding-bottom: 2rem;
+    }
+    .services-container-box {
+       
+        .box {
+            padding: 10px;
+            border-radius: 1rem;
+            box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+            img {
+                width: 100%;
+                height: 200px;
+                object-fit: contain ;
+            }
+            p {
+                font-size: 2rem;
+            }
+            h3 {
+                font-size: 2rem;
+            }
+            h2 {
+                color: #ca3c3c;
+                font-size: 1.5rem;
+            }
+            .btn {
+                width: 100%;
+            }
+
+        }
+    }
+}
+
+.map {
+    height: 500px;
+    width: 100%;
+    iframe {
+        height: 100%;
+        width: 100%;
+    }
+}
+.contact {
+    background-color: #1f242d;
+    .form-control {
+        border-radius: 1rem;
+        border: 1px solid;
+    }
+    .contact-img-box {
+        width: 100%;
+        height: auto;
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 1rem;
+        }
+    }
+    h2 {
+        color: #fff;
+    }
+    p {
+        color: #fff;
+    }
+}
+
+.image-box {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+.form-control {
+    border-radius: 1rem;
+    border: 1px solid;
+}
+
+footer {
+    text-align: center;
+    .svg {
+        width: 50px;
+        height: 50px;
+        svg {
+            width: 100%;
+        }
+    }
+}
